@@ -1,0 +1,26 @@
+title: "[prodiagrams.com] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Bienvenido! Utiliza este formulario para preguntas, solicitudes de funciones o comentarios sobre **prodiagrams.com**. Por favor, no compartas datos personales privados.
+  - type: dropdown
+    id: topic-type
+    attributes:
+      label: "¿Qué te gustaría hacer?"
+      options:
+        - "Hacer una pregunta general"
+        - "Obtener ayuda con un problema / error"
+        - "Sugerir una nueva función o mejora"
+        - "Otros / Comentarios generales"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Tu mensaje
+      description: Describe tu pregunta, problema o idea en detalle.
+      placeholder: Escribe tu mensaje aquí...
+    validations:
+      required: true
